@@ -1,0 +1,2 @@
+create table User(username varchar(20) not null primary key,password varchar(20) not null);
+create table MetaInfo(id int(4) not null primary key auto_increment,file varchar(20) not null,size varchar(20) not null,username varchar(20) not null,ip varchar(20) not null,port varchar(20) not null);
